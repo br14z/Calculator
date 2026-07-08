@@ -1,0 +1,27 @@
+Week 7 Tutorial Documentation
+Scenario:
+FoodExpress has an online food ordering system. The system needs to calculate the total payment based on price and quantity.
+Bugs identified:
+1. The calculate_total function was missing.
+2. The return statement was missing.
+3. The program did not validate invalid price.
+4. The program did not validate invalid quantity.
+5. main.py could crash when trying to format text as a float.
+
+Fixes made:
+1. Created calculate_total(price, quantity) function in food_order.py.
+2. Added validation for price.
+3. Added validation for quantity.
+4. Added total calculation using price * quantity.
+5. Updated main.py to print error messages properly.
+
+Test cases:
+1. Price 10 and quantity 2 should return 20.
+2. Price 10 and quantity 3 should return 30.
+3. Price 50 and quantity 2 should return 100.
+4. Price 5 and quantity 2 should return 10.
+5. Price 0 and quantity 2 should return "invalid price".
+6. Price 10 and quantity 0 should return "invalid quantity".
+
+Conclusion:
+The program is now fixed. It calculates valid orders correctly and rejects invalid orders. Pytest was used to test the system.
