@@ -51,3 +51,8 @@ This module displays the completed helpdesk ticket, including the student’s de
 Open the terminal inside the project folder and enter:
 ```bash
 python main.py
+```
+
+## Video Demo
+
+![alt text](Demo-1.gif)
